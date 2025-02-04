@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema da Biblioteca CInForme</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link para o arquivo CSS -->
+</head>
+<body>
+
+    <header>
+        <h1>Bem-vindo ao Sistema da Biblioteca CInForme</h1>
+        <p>Gerencie livros e usuários de forma simples e eficiente.</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#video-youtube">Vídeo do Projeto</a></li>
+            <li><a href="#visao-geral">Visão Geral</a></li>
+            <li><a href="#funcionalidades">Funcionalidades</a></li>
+            <li><a href="#como-rodar">Como Rodar o Projeto</a></li>
+            <li><a href="#estrutura-do-codigo">Estrutura do Código</a></li>
+
+        </ul>
+    </nav>
+
+    <main>
+        <section id="video-youtube">
+            <h2>Vídeo do Youtube</h2>
+            <div class="video-link">
+                <a href="https://www.youtube.com/watch?v=PlxSBtPzAqQ" target="_blank">
+                    <div class="video-thumbnail">
+                        <!-- Usando o ID do vídeo PlxSBtPzAqQ -->
+                        <img src="https://img.youtube.com/vi/PlxSBtPzAqQ/0.jpg" alt="Thumbnail do Vídeo">
+                        <div class="play-icon">
+                            ▶
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <section id="visao-geral">
+            <h2>Visão Geral</h2>
+            <p>Este é um projeto desenvolvido em C++ para gerenciar os livros de uma biblioteca. O sistema oferece diversas funcionalidades, incluindo o cadastro e login de usuários, o gerenciamento de livros (adicionar, listar, alugar, editar e remover livros) e o controle dos livros alugados por cada usuário.</p>
+        </section>
+
+        <section id="funcionalidades">
+            <h2>Funcionalidades</h2>
+            <ul>
+                <li><strong>Cadastro e Login de Usuário:</strong> Cadastro de usuário com nome e senha.</li>
+                <li><strong>Gerenciamento de Livros:</strong> Adicionar, listar, alugar, editar e remover livros.</li>
+                <li><strong>Visualização dos Livros Alugados:</strong> Verificar e listar os livros alugados pelo usuário.</li>
+            </ul>
+        </section>
+
+        <section id="como-rodar">
+            <h2>Como Rodar o Projeto</h2>
+            <p>Para rodar este projeto em sua máquina, siga os passos abaixo:</p>
+            <ol>
+                <li><strong>Pré-requisitos:</strong> Certifique-se de ter o C++ instalado em sua máquina.</li>
+                <li><strong>Compilar o código:</strong> Execute o comando `g++ main.cpp Usuario.cpp Biblioteca.cpp -o sistema_biblioteca`.</li>
+                <li><strong>Rodar o sistema:</strong> Execute o comando `./sistema_biblioteca`.</li>
+            </ol>
+        </section>
+
+        <section id="estrutura-do-codigo">
+            <h2>Estrutura do Código</h2>
+            <ul>
+                <li><strong>Usuario.h:</strong> Define a classe `Usuario`, que armazena as informações do usuário e realiza a autenticação.</li>
+                <li><strong>Usuario.cpp:</strong> Implementação dos métodos da classe `Usuario`.</li>
+                <li><strong>Biblioteca.cpp:</strong> Implementação da classe `Sistema_da_Biblioteca` para o gerenciamento de livros.</li>
+                <li><strong>main.cpp:</strong> Função principal que organiza a interação com o usuário e executa o sistema.</li>
+            </ul>
+        </section>
+    <footer>
+        <p>Desenvolvido por Carlos Alexandre e Pedro Vinicius</p>
+    </footer>
+
+</body>
+</html>
